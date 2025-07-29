@@ -1,4 +1,4 @@
-# ✍️ Digital Signature App
+# ✍️ Digital Signature
 
 A secure, modern and user-friendly digital signature app built with **HTML**, **Tailwind CSS** and **JavaScript**. Easily create and verify digital signatures with a clean interface for signing documents or messages online.
 
