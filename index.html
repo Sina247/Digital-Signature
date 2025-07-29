@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Digital Signature</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+	<body class="bg-gradient-to-tr from-indigo-100 via-purple-100 to-pink-100 min-h-screen flex flex-col items-center justify-center p-6">
+		<div class="bg-white rounded-3xl shadow-xl p-6 max-w-lg w-full">
+			<h1 class="text-3xl font-semibold mb-6 text-center text-gray-800">Digital Signature Pad</h1>
+
+			<canvas id="signature-pad" class="border border-gray-300 rounded-lg w-full h-64 touch-none cursor-crosshair"></canvas>
+
+			<div class="flex flex-wrap justify-between items-center mt-5 gap-4">
+				<div class="flex items-center space-x-3 rtl:space-x-reverse">
+					<label for="color-picker" class="font-medium text-gray-700 select-none">Color:</label>
+					<input id="color-picker" type="color" value="#000000" class="w-10 h-10 p-0 border rounded cursor-pointer" aria-label="Pick pen color" />
+				</div>
+
+				<div class="flex items-center space-x-3 rtl:space-x-reverse">
+					<label for="stroke-width" class="font-medium text-gray-700 select-none">Stroke Width:</label>
+					<input id="stroke-width" type="range" min="1" max="10" value="2" step="1" class="w-24 cursor-pointer" aria-label="Adjust pen stroke width" />
+				</div>
+
+				<button id="clear-btn" class="flex items-center gap-2 bg-red-500 hover:bg-red-600 focus:ring-4 focus:ring-red-300 text-white px-4 py-2 rounded-lg transition" aria-label="Clear the signature pad">
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+					</svg>
+					Clear
+				</button>
+
+				<button id="save-btn" class="flex items-center gap-2 bg-green-600 hover:bg-green-700 focus:ring-4 focus:ring-green-300 text-white px-4 py-2 rounded-lg transition" aria-label="Save the signature as PNG image">
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M16 12l-4 4m0 0l-4-4m4 4V4" />
+					</svg>
+					Save
+				</button>
+			</div>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>

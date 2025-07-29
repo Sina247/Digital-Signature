@@ -1,0 +1,8 @@
+#signature-pad::-webkit-scrollbar {
+  display: none;
+}
+
+#signature-pad {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
