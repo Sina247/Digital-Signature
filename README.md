@@ -6,12 +6,12 @@ A secure, modern and user friendly digital signature app built with **HTML**, **
 
 ## 🚀 Features
 
-- ✍️ **Draw Your Signature** : Use mouse or touch to draw a signature on a responsive canvas  
-- 💾 **Save and Export** : Download your signature as an image (PNG) for easy use  
-- 🔍 **Verify Signatures** : Compare signatures for validation (optional advanced feature)  
-- 🎨 **Tailwind CSS Design** : Stylish, clean and mobile friendly layout  
-- ⚡ **Lightweight and Fast** : Minimal dependencies ensure quick loading and smooth interaction  
-- 🛠️ **Customizable** : Easily extend or integrate into other projects  
+- ✍️ **Draw Your Signature** : Use mouse or touch to draw a signature on a responsive canvas.
+- 💾 **Save and Export** : Download your signature as an image (PNG) for easy use.
+- 🔍 **Verify Signatures** : Compare signatures for validation (optional advanced feature).  
+- 🎨 **Tailwind CSS Design** : Stylish, clean and mobile friendly layout.
+- ⚡ **Lightweight and Fast** : Minimal dependencies ensure quick loading and smooth interaction.  
+- 🛠️ **Customizable** : Easily extend or integrate into other projects.
 
 ---
 
